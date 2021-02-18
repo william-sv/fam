@@ -1,19 +1,10 @@
 # fam
 
-## Project setup
-```
-yarn install
-```
+> 固定资产管理软件
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+#### 应用框架
+- Electron
+- ElementUI
+- Lowdb
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
