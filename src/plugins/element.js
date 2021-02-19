@@ -14,6 +14,10 @@ import {
   Select,
   Option,
   Alert,
+  RadioButton,
+  RadioGroup,
+  MessageBox,
+  Message,
 } from 'element-ui'
 
 Vue.use(Button)
@@ -30,3 +34,9 @@ Vue.use(FormItem)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Alert)
+Vue.use(RadioButton)
+Vue.use(RadioGroup)
+
+Vue.prototype.$msgbox = MessageBox
+Vue.prototype.$prompt = MessageBox.prompt
+Vue.prototype.$message = Message

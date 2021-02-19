@@ -13,9 +13,9 @@
           <i class="el-icon-edit"></i>
           <span slot="title">设备管理</span>
         </el-menu-item>
-        <el-menu-item index="/about">
+        <el-menu-item index="/field">
           <i class="el-icon-menu"></i>
-          <span slot="title">数据设置</span>
+          <span slot="title">数据字段设置</span>
         </el-menu-item>
         <el-menu-item index="/database-setting">
           <i class="el-icon-menu"></i>

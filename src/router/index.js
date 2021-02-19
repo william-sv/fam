@@ -29,6 +29,11 @@ const routes = [
     path: '/database-setting',
     name: 'DatabaseSetting',
     component: () => import(/* webpackChunkName: "fixed-assets-record" */ '../views/database/Index.vue')
+  },
+  {
+    path: '/field',
+    name: 'Field',
+    component: () => import(/* webpackChunkName: "field" */ '../views/field/Index.vue'),
   }
 ]
 

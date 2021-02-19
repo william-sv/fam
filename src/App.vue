@@ -5,11 +5,7 @@
         <TheMenu />
       </el-aside>
       <el-main>
-        <keep-alive>
-          <transition>
-            <router-view></router-view>
-          </transition>
-        </keep-alive>
+        <router-view></router-view>
       </el-main>
     </el-container>
   </div>
