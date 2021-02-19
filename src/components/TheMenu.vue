@@ -9,9 +9,9 @@
           <i class="el-icon-receiving"></i>
           <span slot="title">资产管理</span>
         </el-menu-item>
-        <el-menu-item index="/fixed-assets-record">
+        <el-menu-item index="/fixed-assets-inventory">
           <i class="el-icon-edit"></i>
-          <span slot="title">设备管理</span>
+          <span slot="title">库存管理</span>
         </el-menu-item>
         <el-menu-item index="/field">
           <i class="el-icon-menu"></i>

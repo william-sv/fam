@@ -1,9 +1,9 @@
 <template>
-  <div class="record-wrap">
-    <div class="record-title">
+  <div class="inventory-wrap">
+    <div class="inventory-title">
       设备管理
     </div>
-    <div class="record-search">
+    <div class="inventory-search">
       <el-form :inline="true" :model="formInline" size="mini" class="demo-form-inline">
         <el-form-item label="品名">
           <el-select v-model="formInline.category" placeholder="品名">
@@ -38,7 +38,7 @@
 <script>
   import FixedAssetsTable from '../../components/FixedAssetsTable'
   export default {
-    name: "FixedAssetsRecordPage",
+    name: "FixedAssetsInventoryPage",
     data(){
       return {
         fixedAssetsData: [
@@ -119,7 +119,7 @@
 </script>
 
 <style lang="less" scoped>
-  .record-title {
+  .inventory-title {
     text-align: center;
     font-size: 18px;
     font-weight: bolder;

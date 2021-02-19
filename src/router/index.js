@@ -21,9 +21,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "fixed-assets-management" */ '../views/management/Index.vue')
   },
   {
-    path: '/fixed-assets-record',
-    name: 'FixedAssetsRecord',
-    component: () => import(/* webpackChunkName: "fixed-assets-record" */ '../views/record/Index.vue')
+    path: '/fixed-assets-inventory',
+    name: 'FixedAssetsInventory',
+    component: () => import(/* webpackChunkName: "fixed-assets-record" */ '../views/inventory/Index.vue')
   },
   {
     path: '/database-setting',
